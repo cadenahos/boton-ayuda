@@ -8,8 +8,8 @@ const theme = createMuiTheme ({
             fontSize: "2em",
             color: "yellow",
             backgroundColor: "red",
-          }
-        }
+          }  
+        },
       }
 });
 
@@ -40,17 +40,22 @@ const useStyles = makeStyles({
         justifyContent: 'flex-end',
     },
 
+    avatarimagen:{
+    
+    },
+ 
+
     body: {
         width: '100%',
         height: '800px',
     },
 });
 
+
 export{
     TooltipcolorAtica,
-    Tooltip,
     theme,
 }
 
 
-export default useStyles
+export default useStyles;
