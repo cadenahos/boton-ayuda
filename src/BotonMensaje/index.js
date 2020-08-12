@@ -11,8 +11,8 @@ export default function BotonMensaje() {
     const classes = useStyles()
     return(
     <div>
-    <MuiThemeProvider theme={theme} >    
-        <BlueOnGreenTooltip className={classes.mesnaje} title={contenido} placement="left" interactive > 
+    <MuiThemeProvider theme={theme} >
+        <BlueOnGreenTooltip className={classes.mesnaje} title={contenido} placement="left" interactive >
             <IconButton>
                 <HelpIcon style={{ fontSize: 80 }} color="primary"  />
             </IconButton>
@@ -21,5 +21,3 @@ export default function BotonMensaje() {
     </div>
     );
 }
-
-

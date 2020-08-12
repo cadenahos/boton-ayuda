@@ -4,7 +4,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { CssBaseline } from '@material-ui/core';
 
-ReactDOM.render(  
+ReactDOM.render(
   <React.StrictMode>
     <CssBaseline />
         <App />
