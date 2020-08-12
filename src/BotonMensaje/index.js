@@ -1,17 +1,25 @@
 import React from 'react';
 import HelpIcon from '@material-ui/icons/Help';
-import { Tooltip, Paper, IconButton } from '@material-ui/core';
+import {  IconButton, MuiThemeProvider,  } from '@material-ui/core';
+import useStyles, { theme, BlueOnGreenTooltip }from '../MuiStyle';
 
-const contenido = `En que podemos ayudarle`;
 
-const BotonMensaje = () => (
+const contenido = `¿ En que podemos ayudarle ?`;
+
+export default function BotonMensaje() {
+
+    const classes = useStyles()
+    return(
     <div>
-    <Tooltip title={contenido} placement="left" >
-    <IconButton>
-    <HelpIcon style={{ fontSize: 70 }} color="secondary"  />
-    </IconButton>
-    </Tooltip>
+    <MuiThemeProvider theme={theme} >    
+        <BlueOnGreenTooltip className={classes.mesnaje} title={contenido} placement="left" interactive > 
+            <IconButton>
+                <HelpIcon style={{ fontSize: 80 }} color="primary"  />
+            </IconButton>
+        </BlueOnGreenTooltip>
+    </MuiThemeProvider>
     </div>
-);
+    );
+}
 
-export default BotonMensaje;
+
