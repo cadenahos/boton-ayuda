@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   
     root: {
         padding: '5px',
-        background: 'rgba(244, 113, 168, 0.14)',
+        background: 'gray',
     },
     titulo: {
         display: 'flex',
