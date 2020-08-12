@@ -1,6 +1,6 @@
 import React from 'react';
 import BotonMensaje from '../BotonMensaje';
-import {Paper, Grid } from '@material-ui/core';
+import { Paper, Grid } from '@material-ui/core';
 import  useStyles from '../MuiStyle';
 
 export default function App() {
