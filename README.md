@@ -9,7 +9,8 @@
 ## reactjs
 
 1. Para provar la aplicación es necesario que tenga  npm en su computardor
-2. Escriba npm start en el terminal para iniciar la prueba.
+2. Escriba npm install en el directorio para descargar librerias.
+3. En terminal escriba el comando npm start para iniciar prueba. 
 
 ## Funcionalidades de la applicación
 
