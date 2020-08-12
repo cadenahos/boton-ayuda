@@ -1,0 +1,1 @@
+export const contenido = `¿ En que podemos ayudarle ?`;

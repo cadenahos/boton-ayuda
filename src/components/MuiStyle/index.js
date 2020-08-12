@@ -13,7 +13,7 @@ const theme = createMuiTheme ({
       }
 });
 
-const BlueOnGreenTooltip = withStyles({
+const TooltipcolorAtica = withStyles({
     tooltip: {
       fontSize: 20,  
       color: "#2e1a46",
@@ -47,7 +47,8 @@ const useStyles = makeStyles({
 });
 
 export{
-    BlueOnGreenTooltip,
+    TooltipcolorAtica,
+    Tooltip,
     theme,
 }
 

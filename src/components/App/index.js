@@ -9,7 +9,7 @@ export default function App() {
   <Paper className={classes.root} width= "100%" height= "100%" >
     <div className={classes.titulo}>
       <h1 >
-        Mi Boton App
+        Mi botón
       </h1>
     </div>
     <Grid className={classes.body} />

@@ -1,17 +1,17 @@
 
-# Boton con mensaje de ayuda
+# Botón con mensaje de ayuda.
 
-## La aplicacion contiene: 
+## La aplicación contiene: 
 
-* reactsj
-* MaterialUI
+* Reactjs.
+* MaterialUI.
 
-## Comenzar con reactjs
+## reactjs
 
-1. Para provar la aplicacion es necesario que tenga el manejado npm de nodejs en su computardor
-2. Escriba npm start en el terminal para iniciar la prueba
+1. Para provar la aplicación es necesario que tenga  npm en su computardor
+2. Escriba npm start en el terminal para iniciar la prueba.
 
-## Funcionalidades de la applicacion
+## Funcionalidades de la applicación
 
 1. Boton al fondo a mano derecha.  
 2. al hacer hoover sobre el mismo aparece un mensaje. 
